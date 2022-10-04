@@ -1,20 +1,23 @@
-[![PHP Version][7]][5]
-[![Standard Version][8]][6]
-
 TeamSpeak Dynamic Banner
 ========================
 
-A teamspeak server dynamic php banner 
+A TeamSpeak3 Server Dynamic PHP Banner 
 
 
 ## Installation
 
 ``` bash
-npm install php
+sudo apt-get install php5.6
+
+sudo apt-get install apache2 php5.6 libapache2-mod-php5.6
+
+sudo apt-get install php5.6-gd
+
+sudo systemctl restart apache2
 ```
 
 
-## Usage
+## Config
 
 The following example shows the most basic setup possible. Note that it 
 config.
@@ -22,16 +25,14 @@ config.
 ``` js
 $config = array (
 	'login' => array (
-		'ip' => "168.138.185.21",
+		'ip' => "127.0.0.1",
 		'tport' => '9987',
 		'qport' => '10011',
-		'name' => "Banner-Bot",
+		'name' => "Banner",
 		'qlogin' => 'serveradmin',
-		'qpass' => "zjnhwYof",
+		'qpass' => "password",
 )
 );
 ```
 
-See the [full documentation][2] for more in-depth usage, demos, and examples 
-on how to integrate it with other open-source react components like 
-[react-headroom][3] and [react-sidebar][4].
+WEB SITE [pludasDevTK].
