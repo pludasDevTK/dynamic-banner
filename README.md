@@ -15,3 +15,4 @@ sudo apt-get install php5.6-gd
 
 sudo systemctl restart apache2
 ```
+![Before cod4screenshots](https://github.com/pludasDevTK/dynamic-banner/blob/main/img.png "Before cod4screenshots")
